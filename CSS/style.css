@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: #ffff;
+    font-size: 15px;
+    color: #9b9a9a;
+}
+
+#btnLogin{
+    border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#btnEnviar{
+    border-radius: 100px;
+    width: 550px;
+}
+
+.slider1{
+    display:block;
+    margin:auto;
+}
+
+.textSlider{
+    font-weight: bold;
+    font-size: 100px;
+    justify-content: left;
+}
+
+.title{
+    color: #9b9a9a;
+}
+
+.slogan{
+    color: #773090;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact-title{
+    color: #773090;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+input[type=text]{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid transparent;
+     width: 550px;
+     height: 65px;
+     margin: 30px auto;
+  	 font-size: 15px;
+     box-shadow: 0 0 5pt 0.5pt #d3d3d383;
+}
+
+#area{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1px solid transparent;
+     width: 550px;
+     margin: 30px auto;
+  	 font-size: 15px;
+     box-shadow: 0 0 5pt 0.5pt #d3d3d383;
+}
+
+@media (min-width: 590px){
+    .textSlider{
+        font-size: 100px;
+    }
+}
